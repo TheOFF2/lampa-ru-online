@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-27T09:28:33.156844+00:00",
+  "checks": [
+    {
+      "url": "https://theoff2.github.io/lampa-ru-online/ru-online.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "cors": "*",
+      "sha256": "8ea6b2bb1790d896152dd3dbbdf8e90ce8de56bba094e64c13191b4cf207542f",
+      "matches_local": true
+    },
+    {
+      "url": "https://theoff2.github.io/lampa-ru-online/catalog.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "cors": "*",
+      "sha256": "43f1353e79db17e86bc3ab7061fb5926f2d389dbe13988aa7f020a239e502c74",
+      "matches_local": true
+    },
+    {
+      "url": "https://theoff2.github.io/lampa-ru-online/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "cors": "*",
+      "sha256": "b4ea7cdd88c3953e287f65a0760768b12c9f06470fcb3efe14b3760d68759a49",
+      "matches_local": true
+    },
+    {
+      "url": "https://theoff2.github.io/lampa-ru-online/LICENSE",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "cors": "*",
+      "sha256": "6d34c0d777927c6a1f4ba03f028b3ec77bc672d56ef2c663fa42a984af59cd2d",
+      "matches_local": true
+    }
+  ],
+  "pull_request": "https://github.com/TheOFF2/lampa-ru-online/pull/1"
+}
