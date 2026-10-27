@@ -1,0 +1,21 @@
+{
+  "name": "lampa-ru-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remote-friendly Lampa client for authorized online sources",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test test/*.test.js",
+    "check": "npm run build && npm test && node scripts/check.js",
+    "probe": "python3 scripts/probe.py",
+    "test:browser": "node scripts/browser-smoke.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "acorn": "8.15.0",
+    "playwright": "1.56.1"
+  }
+}

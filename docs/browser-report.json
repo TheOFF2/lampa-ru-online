@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-27T09:01:33.058Z",
+  "runtime": "yumata/lampa@35d79e5e1f256a19862f8cb8dbb79298e5930531",
+  "tested": [
+    "real Lampa Select/controller",
+    "public catalog fixtures",
+    "season and episode selection",
+    "Russian voice fixture",
+    "MP4/HLS player contract",
+    "Lampac link/call rjson fixtures",
+    "player return",
+    "1280x720 and 1920x1080 layouts"
+  ],
+  "limitations": [
+    "Player launches intercepted; no video decoding in this UI suite",
+    "No live Rezka/Filmix account or API",
+    "No physical Android TV or projector"
+  ],
+  "errors": []
+}

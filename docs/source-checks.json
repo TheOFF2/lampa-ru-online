@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-27T08:51:21.239866+00:00",
+  "checks": [
+    {
+      "title": "Большой Бак",
+      "url": "https://media.w3.org/2010/05/bunny/movie.mp4",
+      "format": "mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "verified": "MP4 signature and HTTPS response (not playback)",
+      "ok": true
+    },
+    {
+      "title": "Большой Бак",
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "format": "hls",
+      "status": 206,
+      "content_type": "audio/mpegurl",
+      "variant_url": "https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8",
+      "segment_status": 206,
+      "segment_type": "application/octet-stream",
+      "verified": "HLS master + media playlist + MPEG-TS segment (not playback)",
+      "ok": true
+    },
+    {
+      "title": "Синтел — трейлер",
+      "url": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+      "format": "mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "verified": "MP4 signature and HTTPS response (not playback)",
+      "ok": true
+    },
+    {
+      "title": "Синтел — трейлер",
+      "url": "https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4",
+      "format": "mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "verified": "MP4 signature and HTTPS response (not playback)",
+      "ok": true
+    }
+  ],
+  "rezka": "not live tested: no permitted endpoint or account supplied",
+  "filmix": "not live tested: no permitted endpoint or account supplied",
+  "android_tv": "not hardware tested"
+}
