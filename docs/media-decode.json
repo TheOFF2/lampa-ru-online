@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-10-27T09:01:52.073823+00:00",
+  "decoder": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "checks": [
+    {
+      "sample": "sintel.mp4",
+      "url": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+      "bytes": 4372373,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 854,
+          "height": 480
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "decoded_seconds": 1,
+      "ok": true
+    },
+    {
+      "sample": "bunny-segment.ts",
+      "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts",
+      "bytes": 1915156,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        },
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "decoded_seconds": 1,
+      "ok": true
+    }
+  ],
+  "limitation": "Software decoder only. Not physical Android TV, projector or Lampa player playback."
+}
