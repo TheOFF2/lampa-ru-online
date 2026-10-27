@@ -13,4 +13,4 @@ Validation:
 - HTTPS-проверки MP4 и HLS master/media/TS; FFmpeg декодирует по секунде демо MP4 и TS (H.264/AAC).
 - Физических Android TV/проекторов нет. Живые Rezka/Filmix без разрешённого API/аккаунта не проверены.
 
-GitHub Pages workflow публикует public/ после изменения main. CI проверяет сборку и запускает браузерный smoke. Первоначальная удалённая доставка была заблокирована HTTP 403 подключения; актуальное состояние описано в docs/DELIVERY.md.
+GitHub Pages workflow публикует public/ после изменения main. CI проверяет сборку и запускает браузерный smoke. Ветки с исходниками и готовым дистрибутивом отправлены. Включение Pages требует действия владельца: GitHub Connector не имеет права Pages; инструкция в docs/DELIVERY.md.
