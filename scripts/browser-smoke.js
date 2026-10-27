@@ -56,7 +56,7 @@ async function main() {
             return route.abort('failed');
         });
         await page.goto(`http://127.0.0.1:${port}/`);
-        await page.waitForFunction(() => window.appready && window.Lampa, { timeout: 45000 });
+        await page.waitForFunction(() => window.appready && window.Lampa, null, { timeout: 45000 });
         await page.waitForTimeout(1500); // Let Lampa's own welcome animation finish.
         await page.addScriptTag({ url: `http://127.0.0.1:${port}/plugin/ru-online.js` });
         await page.waitForSelector('.ru-online-menu', { state: 'attached' });
