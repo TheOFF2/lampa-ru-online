@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "big-buck-bunny",
+      "title": "Большой Бак",
+      "original_title": "Big Buck Bunny",
+      "year": 2008,
+      "attribution": "© Blender Foundation | www.bigbuckbunny.org | CC BY 3.0 | https://creativecommons.org/licenses/by/3.0/",
+      "voices": [
+        {
+          "name": "Оригинал — без диалогов",
+          "language": "und",
+          "streams": [
+            { "quality": "Исходное MP4", "format": "mp4", "url": "https://media.w3.org/2010/05/bunny/movie.mp4" },
+            { "quality": "Авто HLS", "format": "hls", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sintel-trailer",
+      "title": "Синтел — трейлер",
+      "original_title": "Sintel trailer",
+      "year": 2010,
+      "attribution": "© Blender Foundation | durian.blender.org | CC BY 3.0 | https://creativecommons.org/licenses/by/3.0/",
+      "voices": [
+        {
+          "name": "Оригинал — английский",
+          "language": "en",
+          "streams": [
+            { "quality": "480p", "format": "mp4", "url": "https://media.w3.org/2010/05/sintel/trailer.mp4", "backups": ["https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4"] }
+          ]
+        }
+      ]
+    }
+  ]
+}
